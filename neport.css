@@ -1,0 +1,175 @@
+html {
+    font-size: 65%;
+    overflow-x: scroll;
+        }
+        
+        body{
+            background:#369;
+        }
+        .site-slogan{
+            font-size: 100%;
+        }
+        
+      .t-Body-actions, .t-Body-nav, .t-Header{
+          position: absolute;
+      }  
+     .apex-side-nav .t-Body-actions, .apex-side-nav .t-Body-nav, .apex-side-nav .t-Body-title {
+        top: 0px;
+}
+        
+      #t_Header{
+          margin-top:83px;
+      }  
+        
+      .a-IRR-search-field{
+          min-height:32px;
+          height:auto;
+      }  
+        button{
+            height:auto;
+        }
+        
+       fieldset {
+           margin:0;
+           padding: 0; 
+           position: static; 
+           border:none;
+   
+} 
+        hr, table, div.links, .box, .panel-pane, .progress, .region-sidebar > .block, .view-mode-title{
+            margin-bottom:0;
+        }
+        
+        a.t-Header-logo-link:visited{
+           color:#fff;
+       }
+        a:visited{
+           color:inherit;
+       }
+        #t_Body_nav, .t-Body-main{
+            min-height: 700px;
+        }
+        
+        .a-Menu-label {
+    background-image: none!important;
+}
+/******Nav colors and styles test*********************
+.t-PageBody--leftNav .t-Body-nav {
+    background-color: #385366;
+}
+.t-TreeNav .a-TreeView-node--topLevel .a-TreeView-row.is-current,
+.t-TreeNav .a-TreeView-node--topLevel .a-TreeView-row.is-current--top.is-selected,
+.t-TreeNav .a-TreeView-node--topLevel .a-TreeView-row.is-selected {
+    background-color: #2ea9c1;
+}
+        
+.t-TreeNav .a-TreeView-node--topLevel .a-TreeView-row.is-hover {
+    background-color: #2ea9c1!important;
+}
+.t-Header .a-MenuBar-item.a-Menu--current.is-expanded,
+.t-Header .a-MenuBar-item.is-expanded {
+    background-color: #2ea9c1!important;
+}
+.t-Header .a-Menu-content {
+    border-width: 0;
+    background-color: #2ea9c1;
+} 
+.t-Header-userMenu .a-Menu-content {
+    border-width: 0;
+    background-color: #2ea9c1;
+}
+.t-TreeNav .a-TreeView-node--topLevel .a-TreeView-row.is-current--top,
+.t-TreeNav .a-TreeView-node--topLevel ul,
+.t-TreeNav .a-TreeView-node--topLevel.is-collapsible>.a-TreeView-row {
+    background-color: #2ea9c1;
+}*****/
+        
+/*****Make sticky header stick to the top*************************/
+        .t-fht-thead.js-stickyTableHeader.js-stickyWidget-toggle.is-stuck{
+            top:0!important;
+            
+        }
+       
+/*****Main nav dropdown arrow replacement*************************/
+        .t-TreeNav.a-TreeView .is-expandable>.a-TreeView-toggle:before{
+            content:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMBAMAAACkW0HUAAAAHlBMVEUAAAD///////////////////////////////////8kfJuVAAAACXRSTlMAAhIVPECwtfcS60z7AAAALUlEQVQIW2NgQAGZM4GgicETRBUysALJ6QIMDJEgDgOQC+IAuYVgtcwCDNgBALwuDQOPP6XMAAAAAElFTkSuQmCC);
+        }
+        .t-TreeNav.a-TreeView .is-collapsible>.a-TreeView-toggle:before{
+            content:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMBAMAAACkW0HUAAAAIVBMVEUAAAD////////////////////////////////////////PIev5AAAACnRSTlMAAQQFBhgjkcz7NxZz6QAAAC5JREFUCFtjYEADLBAqswBEss1aDuasWlUA4qxatRzMAXG7QNRSBmFjIFBANQIAG6gPRBwGkaIAAAAASUVORK5CYII=);
+        }
+        .a-TreeView-node.a-TreeView-node--topLevel>.a-TreeView-toggle:before{
+            content:" ";
+        }
+        
+        .a-Icon.icon-asterisk:before {
+            content: "*";
+        }
+/******Draft Habitat project formatting*********************************/
+        input.inputBox{
+            float: left;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .formHandle table tr:nth-of-type(even){
+            background: #fff;
+        }
+        .formHandle table tr td, .formHandle table, .formHandle table tr{
+            border:none;
+        }
+/*******Leverage formatting*********************************************/
+        .radioField {
+            width: 150px;
+        }
+        .radioField table td, .radioField table, .radioField table tr{
+            border:none;
+        }
+        
+.t-Body-contentInner{
+     margin-left:10px;
+ }
+.t-Footer {
+    margin:100px;
+}
+        
+.reveal .fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+        
+        
+.t-PageBody--leftNav .t-Body-nav {
+    width: auto;
+    min-width: 210px;
+    overflow: hidden;
+}
+/****Batch approvals***************************/
+.selectAllRow{
+    margin:10px;
+}
+        
+.col.col-6.projectsFilter {
+    padding-right: 0;
+}
+.buttonGo {
+    width: 100%;
+    margin-left: 54.2%;
+}
+/*help button*/
+.helpLink {
+    font-size: 1.2em;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    z-index: 999;
+}
+.helpLink a {
+    color: white;
+    background-color: rgba(255, 255, 255,.2);
+    padding: 5px 10px;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.helpLink a:hover{
+    background-color: rgba(255, 255, 255,.6);
+    color: #333;
+}
